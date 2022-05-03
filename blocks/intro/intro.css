@@ -1,0 +1,15 @@
+.intro {
+    padding: 0;
+    margin: 7.19% auto 7.19% 11.56%;
+    display: flex;
+    flex-direction: column;
+    max-width: 690px;
+  }
+  
+  @media screen and (max-width:320px) {
+    .intro {
+      max-width: 90%;
+      margin: 20% auto 20% auto;
+  
+    }
+  }
