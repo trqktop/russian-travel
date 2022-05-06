@@ -5,12 +5,21 @@
     font-weight: 900;
     line-height: 58px;
   }
-  
+
+  @media screen and (max-width:768px) {
+    .intro__title {
+      text-align: start;
+      font-size: 7.03vw;
+      line-height: 7.55vw;
+      
+    }
+  }
+
   @media screen and (max-width:320px) {
     .intro__title {
       text-align: start;
       font-size: 32px;
-      line-height: 35px;
+      line-height: 32px;
       white-space: pre-wrap;
     }
   }

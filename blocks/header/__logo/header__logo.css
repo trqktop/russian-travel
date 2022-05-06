@@ -4,6 +4,11 @@
     max-height: 52px;
   }
   
+  .header__logo:hover {
+    transition: .5s linear;
+    opacity: .5;
+  }
+  
   @media screen and (max-width:320px) {
     .header__logo {
       max-width: 142px;
@@ -11,8 +16,4 @@
     }
   }
   
-  .header__logo:hover {
-    transition: .5s linear;
-    opacity: .5;
-  }
   

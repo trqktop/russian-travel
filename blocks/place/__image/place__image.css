@@ -1,0 +1,30 @@
+.place__image {
+    max-width: 460px;
+    object-position: center;
+    object-fit: cover;
+    box-sizing: border-box;
+  }
+
+  @media screen and (max-width:1024px) {
+    .place__image  {
+     max-width: 100%;
+     
+    }
+  }
+
+  @media screen and (max-width:768px) {
+    .place__image  {
+      max-width: 100%;
+     
+    }
+  }
+
+  @media screen and (max-width:700px) {
+    .place__image{
+     margin: 0;
+     max-width: 100%;
+    
+    }
+  }
+
+

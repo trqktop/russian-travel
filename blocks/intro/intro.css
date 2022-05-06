@@ -1,15 +1,32 @@
 .intro {
-    padding: 0;
-    margin: 7.19% auto 7.19% 11.56%;
-    display: flex;
-    flex-direction: column;
-    max-width: 690px;
+  padding: 0;
+  margin: 7.19% auto 7.19% 11.56%;
+  display: flex;
+  flex-direction: column;
+  max-width: 690px;
+}
+
+
+
+@media screen and (max-width:1024px) {
+  .intro {
+    margin: 8.98vw auto 8.98vw 4.68vw;
+
   }
-  
-  @media screen and (max-width:320px) {
-    .intro {
-      max-width: 90%;
-      margin: 20% auto 20% auto;
-  
-    }
+}
+
+@media screen and (max-width:768px) {
+  .intro {
+    margin: 11.46vw 3.125vw 11.46vw 3.125vw;
+    max-width: 790px;
+    
   }
+}
+
+@media screen and (max-width:320px) {
+  .intro {
+    margin: 64px auto 64px auto;
+    max-width: 288px;
+  
+  }
+}

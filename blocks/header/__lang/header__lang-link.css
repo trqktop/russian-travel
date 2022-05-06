@@ -4,7 +4,9 @@
     text-transform: capitalize;
     font-size: 24px;
     line-height: 28px;
+    font-weight: 400;
     color: white;
+    text-align: right;
    }
    
    .header__lang-link:hover {
@@ -12,11 +14,12 @@
     opacity: .5;
   
   }
-  
+
   @media screen and (max-width:320px) {
     .header__lang-link {
       margin: 0%;
       margin: 14px 0 8px 18px;
+      font-size: 18px;
       line-height: 20px;
   
     }
