@@ -1,0 +1,22 @@
+.place__paragraph-conteiner {
+    font-size: 18px;
+    line-height: 163%;
+    font-weight: 400;
+    margin: 0%;
+    display: block;
+    box-sizing: border-box;
+  }
+
+  @media screen and (max-width:768px) {
+    .place__paragraph-conteiner{
+      font-size: 16px;
+    }
+  }
+  
+  @media screen and (max-width:320px) {
+    .place__paragraph-conteiner{
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+  }
+  

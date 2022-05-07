@@ -1,7 +1,6 @@
 .cover {
     margin: 92px auto 0 auto;
     max-width: 1184px;
-    max-height: 740px;
     position: relative;
     background-image: url(../../images/cover-trains.jpg);
     display: flex;
@@ -9,8 +8,6 @@
     background-size: cover;
     background-position: center;
     aspect-ratio: 16/10;
-    
-  
   }
   
   .cover::before {
@@ -24,7 +21,7 @@
   
   .cover:hover::before {
     content: "";
-    opacity: .7;
+    opacity: .8;
     z-index: 33;
     transition: .5s;
   }
@@ -33,11 +30,12 @@
     .cover {
       max-width: 100%;
       margin: 0;
+      margin-top: 92px;
     }
   }
   @media screen and (max-width:320px) {
     .cover {
-     margin: 0;
+     margin-top: 66px;
     }
   }
 
