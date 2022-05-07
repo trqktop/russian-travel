@@ -13,7 +13,7 @@
     }
   }
   
-  @media screen and (max-width:320px) {
+  @media screen and (max-width:647px) {
     .place__paragraph-conteiner{
       margin-left: 16px;
       margin-right: 16px;
